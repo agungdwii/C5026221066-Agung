@@ -1,0 +1,72 @@
+body{
+    background: #EBEEF1;
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+.agung_link-container {
+    display:block;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.agung_link {
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    line-height: 55px;
+    text-decoration: none;
+
+    width: 680px;
+    height: 56px;
+    border-radius: 14px;
+    background: white;
+
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.agung_link:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.agung_link-icon{
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    left: 5px;
+    position: absolute;
+}
+
+.profpicture{
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
