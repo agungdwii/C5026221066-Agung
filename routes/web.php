@@ -115,3 +115,13 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+//route CRUD Penggaris
+Route::get('/penggaris','App\Http\Controllers\PenggarisController@indexpenggaris');
+Route::get('/penggaris/tambahpenggaris','App\Http\Controllers\PenggarisController@tambahpenggaris');
+Route::post('/penggaris/store','App\Http\Controllers\PenggarisController@store');
+Route::get('/penggaris/editpenggaris/{id}','App\Http\Controllers\PenggarisController@editpenggaris');
+Route::post('/penggaris/update','App\Http\Controllers\PenggarisController@update');
+Route::get('/penggaris/hapus/{id}','App\Http\Controllers\PenggarisController@hapus');
+Route::get('/penggaris/cari','App\Http\Controllers\PenggarisController@cari');
+Route::get('/penggaris/viewpenggaris/{id}', 'App\Http\Controllers\PenggarisController@viewpenggaris');
