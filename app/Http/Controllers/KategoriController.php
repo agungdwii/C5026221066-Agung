@@ -22,9 +22,8 @@ class kategoriController extends Controller
 	public function kirimkategori(Request $request)
 	{
 		// mengambil data kategori berdasarkan id yang dipilih
-		$kategori = DB::table('kategori')->where('id',$request->pilihKategori)->get();
 		// passing data kategori yang didapat ke view edit.blade.php
-		return view('kirimkategori',['kategori' => $kategori]);
+		return view('kirimkategori',['kategori' => $request->pilihKategori]);
 
 	}
 }

@@ -128,4 +128,4 @@ Route::get('/penggaris/viewpenggaris/{id}', 'App\Http\Controllers\PenggarisContr
 
 //route kategori
 Route::get('/combo','App\Http\Controllers\KategoriController@indexkategori');
-Route::get('/combo/kirimkategori/{id}','App\Http\Controllers\KategoriController@kirimkategori');
+Route::get('/combo/kirimkategori','App\Http\Controllers\KategoriController@kirimkategori');
