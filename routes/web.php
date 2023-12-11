@@ -125,3 +125,7 @@ Route::post('/penggaris/update','App\Http\Controllers\PenggarisController@update
 Route::get('/penggaris/hapus/{id}','App\Http\Controllers\PenggarisController@hapus');
 Route::get('/penggaris/cari','App\Http\Controllers\PenggarisController@cari');
 Route::get('/penggaris/viewpenggaris/{id}', 'App\Http\Controllers\PenggarisController@viewpenggaris');
+
+//route kategori
+Route::get('/combo','App\Http\Controllers\KategoriController@indexkategori');
+Route::get('/combo/kirimkategori/{id}','App\Http\Controllers\KategoriController@kirimkategori');

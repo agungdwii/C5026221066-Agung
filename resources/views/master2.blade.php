@@ -17,7 +17,7 @@
         <!-- Links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
+            <a class="nav-link" href="/combo">Kategori</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/penggaris">Penggaris</a>
